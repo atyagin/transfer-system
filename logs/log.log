@@ -1,0 +1,36 @@
+"2020-08-20 17:03:51 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Starting MoneyTransferSystemApplication on ilya-Z370-HD3 with PID 32354 (/home/ilya/code/java/spring/money-transfer-system/target/classes started by ilya in /home/ilya/code/java/spring/money-transfer-system)
+""2020-08-20 17:03:51 DEBUG com.ilya.transfer_system.MoneyTransferSystemApplication:56 - Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+""2020-08-20 17:03:51 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:651 - No active profile set, falling back to default profiles: default
+""2020-08-20 17:03:51 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:61 - Started MoneyTransferSystemApplication in 0.469 seconds (JVM running for 0.733)
+""2020-08-20 17:03:51 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='5db70ae8-61c1-4cc5-ae67-e567d9c0ca79'} transfer 567 to Account{id='2b228f99-b407-4b83-b542-84dd440e347b'}
+""2020-08-20 17:03:51 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='6f3d4731-c2d8-43b9-b632-f44437af5b11'} transfer 2651 to Account{id='fa5e043d-63ab-427f-90e7-5f88ebaa043e'}
+""2020-08-20 17:03:52 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='ed52dd08-9338-4a76-b5fb-706aab3cce00'} transfer 664 to Account{id='5db70ae8-61c1-4cc5-ae67-e567d9c0ca79'}
+""2020-08-20 17:03:53 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='6f3d4731-c2d8-43b9-b632-f44437af5b11'} transfer 6014 to Account{id='e4704e9d-3f18-4cc8-9e69-cd86c42a0308'}
+""2020-08-20 17:03:54 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='e2a328ca-0373-4337-9efd-78e342e7bf6d'} transfer 1915 to Account{id='5db70ae8-61c1-4cc5-ae67-e567d9c0ca79'}
+""2020-08-20 17:03:54 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='2b228f99-b407-4b83-b542-84dd440e347b'} transfer 7566 to Account{id='e4704e9d-3f18-4cc8-9e69-cd86c42a0308'}
+""2020-08-20 17:03:55 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='5db70ae8-61c1-4cc5-ae67-e567d9c0ca79'} transfer 432 to Account{id='2b228f99-b407-4b83-b542-84dd440e347b'}
+""2020-08-20 17:03:56 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='c9e2107e-77ea-4187-84b9-d3eac419bf53'} transfer 1034 to Account{id='232dd471-702e-48a9-86fc-5a9f3258c4d1'}
+""2020-08-20 17:03:57 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='e4704e9d-3f18-4cc8-9e69-cd86c42a0308'} transfer 13372 to Account{id='e2a328ca-0373-4337-9efd-78e342e7bf6d'}
+""2020-08-20 17:03:57 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='5db70ae8-61c1-4cc5-ae67-e567d9c0ca79'} transfer 1456 to Account{id='c9e2107e-77ea-4187-84b9-d3eac419bf53'}
+""2020-08-20 17:03:58 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='5db70ae8-61c1-4cc5-ae67-e567d9c0ca79'} transfer 3466 to Account{id='fa5e043d-63ab-427f-90e7-5f88ebaa043e'}
+""2020-08-20 17:03:59 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='232dd471-702e-48a9-86fc-5a9f3258c4d1'} transfer 7910 to Account{id='6f3d4731-c2d8-43b9-b632-f44437af5b11'}
+""2020-08-20 17:04:00 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='ed52dd08-9338-4a76-b5fb-706aab3cce00'} transfer 6353 to Account{id='6f3d4731-c2d8-43b9-b632-f44437af5b11'}
+""2020-08-20 17:04:01 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='c189112c-2d55-4e78-8472-0281411bfdbe'} transfer 3966 to Account{id='fa5e043d-63ab-427f-90e7-5f88ebaa043e'}
+""2020-08-20 17:04:02 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='e4704e9d-3f18-4cc8-9e69-cd86c42a0308'} transfer 3630 to Account{id='6f3d4731-c2d8-43b9-b632-f44437af5b11'}
+""2020-08-20 17:04:03 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='5db70ae8-61c1-4cc5-ae67-e567d9c0ca79'} transfer 2978 to Account{id='ed52dd08-9338-4a76-b5fb-706aab3cce00'}
+""2020-08-20 17:04:03 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='e4704e9d-3f18-4cc8-9e69-cd86c42a0308'} transfer 3821 to Account{id='232dd471-702e-48a9-86fc-5a9f3258c4d1'}
+""2020-08-20 17:04:04 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='e4704e9d-3f18-4cc8-9e69-cd86c42a0308'} transfer 1061 to Account{id='e2a328ca-0373-4337-9efd-78e342e7bf6d'}
+""2020-08-20 17:04:05 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='ed52dd08-9338-4a76-b5fb-706aab3cce00'} transfer 1536 to Account{id='fa5e043d-63ab-427f-90e7-5f88ebaa043e'}
+""2020-08-20 17:04:06 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='5db70ae8-61c1-4cc5-ae67-e567d9c0ca79'} transfer 1305 to Account{id='2b228f99-b407-4b83-b542-84dd440e347b'}
+""2020-08-20 17:04:07 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='6f3d4731-c2d8-43b9-b632-f44437af5b11'} transfer 17658 to Account{id='ed52dd08-9338-4a76-b5fb-706aab3cce00'}
+""2020-08-20 17:04:07 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='e2a328ca-0373-4337-9efd-78e342e7bf6d'} transfer 14503 to Account{id='6f3d4731-c2d8-43b9-b632-f44437af5b11'}
+""2020-08-20 17:04:08 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='5db70ae8-61c1-4cc5-ae67-e567d9c0ca79'} transfer 177 to Account{id='6f3d4731-c2d8-43b9-b632-f44437af5b11'}
+""2020-08-20 17:04:09 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='e4704e9d-3f18-4cc8-9e69-cd86c42a0308'} transfer 1034 to Account{id='2b228f99-b407-4b83-b542-84dd440e347b'}
+""2020-08-20 17:04:10 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='6f3d4731-c2d8-43b9-b632-f44437af5b11'} transfer 3222 to Account{id='232dd471-702e-48a9-86fc-5a9f3258c4d1'}
+""2020-08-20 17:04:11 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='c9e2107e-77ea-4187-84b9-d3eac419bf53'} transfer 312 to Account{id='fa5e043d-63ab-427f-90e7-5f88ebaa043e'}
+""2020-08-20 17:04:12 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='e4704e9d-3f18-4cc8-9e69-cd86c42a0308'} transfer 406 to Account{id='5db70ae8-61c1-4cc5-ae67-e567d9c0ca79'}
+""2020-08-20 17:04:12 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='ed52dd08-9338-4a76-b5fb-706aab3cce00'} transfer 18522 to Account{id='6f3d4731-c2d8-43b9-b632-f44437af5b11'}
+""2020-08-20 17:04:13 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='5db70ae8-61c1-4cc5-ae67-e567d9c0ca79'} transfer 807 to Account{id='c9e2107e-77ea-4187-84b9-d3eac419bf53'}
+""2020-08-20 17:04:14 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:55 - Account{id='ed52dd08-9338-4a76-b5fb-706aab3cce00'} transfer 820 to Account{id='c189112c-2d55-4e78-8472-0281411bfdbe'}
+""2020-08-20 17:04:14 INFO  com.ilya.transfer_system.MoneyTransferSystemApplication:25 - APPLICATION FINISHED
+"
