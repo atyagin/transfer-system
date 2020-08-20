@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import java.util.Objects;
+import java.util.Random;
 import java.util.UUID;
 
 @Component
@@ -13,10 +14,12 @@ import java.util.UUID;
 public class Account {
     private String id;
     @Value("${account.money}")
-    private int money;
+    private volatile int money;
+    Random random;
 
     public Account() {
         id = UUID.randomUUID().toString();
+        random = new Random();
     }
 
     public String getId() {
@@ -27,8 +30,14 @@ public class Account {
         return money;
     }
 
-    public void setMoney(int money) {
-        this.money = money;
+    public synchronized void takeMoney(int money) {
+        this.money += money;
+    }
+
+    public synchronized int giveMoney() {
+        int moneyValue = random.nextInt(money);
+        this.money -= moneyValue;
+        return moneyValue;
     }
 
     @Override
@@ -48,7 +57,6 @@ public class Account {
     public String toString() {
         return "Account{" +
                 "id='" + id + '\'' +
-                ", money=" + money +
                 '}';
     }
 }
