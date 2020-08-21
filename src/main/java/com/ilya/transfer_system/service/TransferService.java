@@ -42,11 +42,13 @@ public class TransferService {
                     }
 
                     int moneyValue = sender.giveMoney();
-                    recipient.takeMoney(moneyValue);
 
-                    MoneyTransferSystemApplication.LOG.info(sender + " transfer " + moneyValue + " to " + recipient);
+                    if (moneyValue > 0) {
+                        recipient.takeMoney(moneyValue);
+                        MoneyTransferSystemApplication.LOG.info(sender + " transfer " + moneyValue + " to " + recipient);
+                        latch.countDown();
+                    }
 
-                    latch.countDown();
                     try {
                         Thread.sleep(random.nextInt(1000) + 1000);
                     } catch (InterruptedException e) {
